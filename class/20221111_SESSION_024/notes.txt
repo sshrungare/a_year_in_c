@@ -1,0 +1,15 @@
+1) . Points to current Directory
+2) .. Points to Parent Directory
+3) Just Type CD to go to home directory 
+
+
+Important directory 
+==========================================
+
+/usr/local/sbin 
+/usr/local/bin 
+==========These are main directory for bin 
+/usr/sbin
+/usr/bin
+/bin
+==========================================
