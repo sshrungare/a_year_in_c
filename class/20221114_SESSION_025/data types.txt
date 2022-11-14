@@ -1,0 +1,18 @@
+data types 
+
+IMP - There are total 13 premitive data types defined in C
+
+==================================================================================
+category 1              |     category - 2               | category - 3           |
+==================================================================================
+character Data (2)      |   Integer datatype (8)         |  decimal (2)           |
+----------------------------------------------------------------------------------|
+    - char              |   - short int                  |  - float               |
+    - unsigned char     |   - unsigned short int         |  - double              |
+                        |   - int                        |  - long double         |
+                        |   - unsigned int               |                        |
+                        |   - long int                   |                        |
+                        |   - unsigned long int          |                        |
+                        |   - long long int              |                        |
+                        |   - unsigned long long         |                        |
+ ----------------------------------------------------------------------------------                                          
