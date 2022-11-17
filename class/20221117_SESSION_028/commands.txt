@@ -1,0 +1,5 @@
+# gcc -S -o hello.S hello.c
+
+Switches Details = 
+    -S : Run compiler to convert hello.c to hello.S and stop(Convert ot Asembly)
+    -o : name of output file 
