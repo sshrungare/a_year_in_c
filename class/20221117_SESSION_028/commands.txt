@@ -1,5 +1,24 @@
+C standard library path - \lib\
+
+
 # gcc -S -o hello.S hello.c
 
 Switches Details = 
     -S : Run compiler to convert hello.c to hello.S and stop(Convert ot Asembly)
     -o : name of output file 
+
+
+#as -o hello.o hello.S
+
+Swiches Details =
+    -o : name of output file 
+    hello.o is object file 
+
+# ld -o hello -lc -dynamic-linker /lib/ld-linux.so.2 hello.o -e main
+
+Switches Details = 
+    -o : output 
+    -lc : link library <lib>c<version><extension>
+    -dynamic-linker : to link dynamic library <path to libbrary>
+    -input table 
+    -e : function to entry
