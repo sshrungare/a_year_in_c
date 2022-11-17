@@ -10,6 +10,6 @@
 
 int main(void)
 {
-	printf("\ Shree Ganeshay namah \n");
+	printf("\n !! Shree Ganeshay Namah !! \n");
 	exit(0);
 }
