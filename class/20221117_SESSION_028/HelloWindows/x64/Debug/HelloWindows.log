@@ -1,0 +1,6 @@
+﻿  hellowindows.c
+E:\vs\MSTSC\class\20221117_SESSION_028\HelloWindows\hellowindows.c(10,23): warning C4133: 'function': incompatible types - from 'char [6]' to 'LPCWSTR'
+E:\vs\MSTSC\class\20221117_SESSION_028\HelloWindows\hellowindows.c(10,42): warning C4133: 'function': incompatible types - from 'char [16]' to 'LPCWSTR'
+  HelloWindows.cpp
+x64\Debug\HelloWindows.obj : warning LNK4042: object specified more than once; extras ignored
+  HelloWindows.vcxproj -> E:\vs\MSTSC\class\20221117_SESSION_028\HelloWindows\x64\Debug\HelloWindows.exe
