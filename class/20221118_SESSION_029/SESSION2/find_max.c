@@ -24,6 +24,8 @@ int main(void)
 {   
     int max ;
     max = find_max(1,2);
-    printf("max of %d and %d is %d",1,2,max);
+    printf("\n---------------------------------------------------\n");
+    printf("  Max of %d and %d is %d ",1,2,max);
+    printf("\n---------------------------------------------------\n");
     return (0);
 }
