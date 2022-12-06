@@ -1,7 +1,7 @@
 /*
 @Author : Swapnil Shrungare
 @Goal : Create A length convertor console Application
-@Date : 6th Dec 2022
+@Date : th Dec 2022
 */
 
 #include <stdio.h>
