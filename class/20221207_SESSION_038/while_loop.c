@@ -1,6 +1,6 @@
 /*
 @Author :  Swapnil Shrungare 
-@Goal : Demo While loop
+@Goal : Demo While loop with break
 @Date : 7th Dec 2022
 */
 
@@ -15,8 +15,7 @@ int main(void)
     while(i<=10)
     {
         printf("%d This is demo While Loop \n", i);
-
-        i++;
+        i = i + 1; 
     }
 
     return(0);

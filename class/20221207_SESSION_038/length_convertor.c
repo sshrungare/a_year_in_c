@@ -149,7 +149,85 @@ void do_conversion(int from_choice, int to_choice , double input_number)
         input_unit = "cm";
         output_unit = "m";
     }
-    else if (from_choice == CENTIMETER && )
+    else if (from_choice == CENTIMETER && to_choice == KILOMETER)
+    {
+        output_number = millimeter_to_kilometer(centimieter_to_milimeter(input_number));
+        input_unit = "cm";
+        output_unit = "km";
+    }
+    else if (from_choice == CENTIMETER && to_choice == INCH)
+    {
+        output_number = millimeter_to_inch(centimieter_to_milimeter(input_number));
+        input_unit = "cm";
+        output_unit = "in";
+    }
+    else if (from_choice == CENTIMETER && to_choice == FOOT)
+    {
+        output_number = milimeter_to_foot(centimieter_to_milimeter(input_number));
+        input_unit = "cm";
+        output_unit = "ft";
+    }
+    else if (from_choice == CENTIMETER && to_choice == YARD )
+    {
+        output_number = milimeter_to_yard(centimieter_to_milimeter(input_number));
+        input_unit = "cm";
+        output_unit = "yard";
+    }
+    else if (from_choice == CENTIMETER && to_choice == MILE)
+    {
+        output_number = milimeter_to_mile(centimieter_to_milimeter(input_number));
+        input_unit = "cm";
+        output_unit = "mi";
+    }
+    else if (from_choice == METER && to_choice == MILIMETER)
+    {
+        output_number = meter_to_milimeter(input_number);
+        input_unit = "m";
+        output_unit = "mm";
+    }
+    else if (from_choice == METER && to_choice == CENTIMETER)
+    {
+        output_number = milimeter_to_centimeter(meter_to_milimeter(input_number));
+        input_unit = "m";
+        output_unit = "cm";
+    }
+    else if (from_choice == METER && to_choice == METER)
+    {
+        output_number = input_number;
+        input_unit = "m";
+        output_unit = "k";
+    }
+    else if (from_choice == METER && to_choice == KILOMETER)
+    {
+        output_number = millimeter_to_kilometer(meter_to_milimeter(input_number));
+        input_unit = "m";
+        output_unit = "km";
+    }
+    else if (from_choice == METER && to_choice == INCH)
+    {
+        output_number = milimeter_to_inch(meter_to_milimeter(input_number));
+        input_unit = "m";
+        output_unit = "in";
+    }
+    else if (from_choice == METER && to_choice == FOOT)
+    {
+        output_number = milimeter_to_foot(meter_to_milimeter(input_number));
+        input_unit = "m";
+        output_unit = "ft";
+    }
+    else if (from_choice == METER && to_choice == YARD)
+    {
+        output_number = milimeter_to_yard(meter_to_milimeter(input_number));
+        input_unit = "m";
+        output_unit = "yard";
+    }
+    else if (from_choice == METER && to_choice == MILE)
+    {
+        output_number = milimeter_to_mile(meter_to_milimeter(input_number));
+        input_unit = "m";
+        output_unit = "mi";
+    }
+    
 
 
 
