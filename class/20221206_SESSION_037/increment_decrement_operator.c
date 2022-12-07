@@ -16,5 +16,18 @@ int main(void)
     num = num - 1;
     printf("Post DEC  Num : %d \n", num);
 
+    ++num; /*Pre INC*/
+    printf("PRE PRE  Num : %d \n", num);
+
+    num++;
+    printf("Post   Num : %d \n", num);
+
+    --num; /*Pre INC*/
+    printf("PRE PRE  Num : %d \n", num);
+
+    num--;
+    printf("Post   Num : %d \n", num);
+
+
     return(0);
 }
