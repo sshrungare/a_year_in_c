@@ -19,7 +19,7 @@ int main(void)
     while(i<=num1)
     {
         if (i == 3)
-        {
+        {   
             break;
         }
 
