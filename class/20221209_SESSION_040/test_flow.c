@@ -1,3 +1,6 @@
+/*
+This results into infinte loop
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -15,7 +18,7 @@ void f1(void)
 {
     puts("in f1()");
     f2();
-      
+
 }
 
 void f2(void)
