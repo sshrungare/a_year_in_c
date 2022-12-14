@@ -10,8 +10,10 @@
 int main(void)
 {
     int mark[5] = {12,1,2,3,4};
-    for( int i = 0 ; i<=5;i++)
+    for( int i = 0 ; i<=4;i++)
     {
+        printf("mark[%d] is %d\n",i,mark[i]);
+        mark[i] = mark[i]+ 10;
         printf("mark[%d] is %d\n",i,mark[i]);
     }
 }
