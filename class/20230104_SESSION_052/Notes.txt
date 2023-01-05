@@ -1,0 +1,16 @@
+#Malloc , Alloc , Realloc
+
+Source Code > Build > Exe > ProcessFile (Running Instance of a program)
+
+A Typical C program structure 
+
+Header Inclusion
+Global DDS 
+Main Function 
+    Local DDS 
+user Function
+    Local DDS
+
+
+
+
