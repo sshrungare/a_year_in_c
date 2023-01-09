@@ -7,7 +7,7 @@ int main(void){
     int *p ;
     int m;
     p = (int*)malloc( sizeof(int)) ; 
-    if (p ==0){
+    if (p == 0){
         puts("Error in allocating integer");
         exit(-1);
     }

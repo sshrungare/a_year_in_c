@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "dynamic_memory_allocaTION_ON_HEAP.C": "cpp"
     }
 }
