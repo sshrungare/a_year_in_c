@@ -28,9 +28,6 @@ int main(void){
     return(0);
 }
 
-
-
-
 //caller sends integer input to callee
 //Callee receives copy of value sent by caller
 //callee cant modify callers copy of integer  
