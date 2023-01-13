@@ -11,7 +11,6 @@ int WINAPI WinMain(HINSTANCE HInstance , HINSTANCE hPrevInstance , LPSTR lpCmdLi
     static TCHAR szClassName[] = TEXT("The Standard Window");
     static TCHAR szTitleOfWindow[]  = TEXT("Hello Windows!");
 
-    
     HWND hwnd = NULL;
     
     WNDCLASSEX wnd;
@@ -37,7 +36,7 @@ int WINAPI WinMain(HINSTANCE HInstance , HINSTANCE hPrevInstance , LPSTR lpCmdLi
     }
 
     hwnd = CreateWindowEx(WS_EX_APPWINDOW,
-                          szClassName,
+                          szClassName, 
                           szTitleOfWindow,
                           WS_OVERLAPPEDWINDOW,
                           CW_USEDEFAULT,
